@@ -25,6 +25,7 @@ endif()
 ycm_ep_helper(ICUB TYPE GIT
                    STYLE GITHUB
                    REPOSITORY robotology/icub-main.git
+                   TAG e3e8bf4
                    DEPENDS ${ICUB_DEPENDS}
                    COMPONENT iCub
                    FOLDER robotology

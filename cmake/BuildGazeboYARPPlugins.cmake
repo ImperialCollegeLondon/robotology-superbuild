@@ -34,7 +34,7 @@ find_package(gazebo QUIET)
 ycm_ep_helper(GazeboYARPPlugins TYPE GIT
                                 STYLE GITHUB
                                 REPOSITORY robotology/gazebo-yarp-plugins.git
-                                TAG master
+                                TAG c7f2003
                                 COMPONENT core
                                 FOLDER robotology
                                 DEPENDS YARP
